@@ -56,9 +56,7 @@ Visit [http://localhost:5000?barcode=4S3BMHB68B3286050](http://localhost:5000?ba
 
 ## How this example works
 
-One of the beautiful things about node/express is that you can setup and respond to an incoming HTTP request in just a few lines of code:
-
-This example below accepts a HTTP GET request with `barcode` as a query string parameter and returns some data:
+One of the great things about node/express is that you can setup and respond to an incoming HTTP request in just a few lines of code. This example below accepts a HTTP GET request with `barcode` as a query string parameter and returns some data:
 
 ```js
 app.get('/', function (req, res) {
