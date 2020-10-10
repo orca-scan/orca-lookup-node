@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/orca-scan/orca-lookup-node/issues"
   },
-  "homepage": "https://github.com/orca-scan/orca-lookup-node#readme"
+  "homepage": "https://github.com/orca-scan/orca-lookup-node#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
