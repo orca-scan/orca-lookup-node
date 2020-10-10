@@ -54,6 +54,37 @@ Visit [http://localhost:5000?barcode=4S3BMHB68B3286050](http://localhost:5000?ba
 }
 ```
 
+## How this example works
+
+One of the beautiful things about node/express is that you can setup and respond to an incoming HTTP request in just a few lines of code:
+
+This example below accepts a HTTP GET request with `barcode` as a query string parameter and returns some data:
+
+```js
+app.get('/', function (req, res) {
+
+    // get the incoming barcode sent from Orca Scan (scanned by a user)
+    var barcode = req.query.barcode;
+
+    // TODO: query a database or API to retrieve some data based on barcode value
+
+    // create an object with data to return (property names must match Orca column names)
+    var dataToReturn = {
+        Vin: barcode,
+        Make: 'SUBARU',
+        Model: 'Legacy',
+        ManufacturerName: 'FUJI HEAVY INDUSTRIES U.S.A',
+        VehicleType: 'PASSENGER CAR',
+        Year: 1992
+    };
+
+    // return data to Orca as a JSON object
+    res.json(dataToReturn);
+});
+```
+
+**Please note:** JSON keys must match Orca column names, otherwise your data will not appear in the app
+
 ## Troubleshooting
 
 If you run into any issues please [open a ticket](https://github.com/orca-scan/orca-lookup-node/issues) and we'll get back to you as soon as we can.
