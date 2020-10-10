@@ -1,0 +1,24 @@
+{
+  "name": "orca-lookup-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orca-scan/orca-lookup-node.git"
+  },
+  "keywords": [
+    "barcode",
+    "lookup",
+    "node"
+  ],
+  "author": "https://orcascan.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orca-scan/orca-lookup-node/issues"
+  },
+  "homepage": "https://github.com/orca-scan/orca-lookup-node#readme"
+}
