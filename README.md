@@ -1,6 +1,6 @@
 # orca-lookup-node
 
-This is a an example of [how to scan barcodes using a smartphone](https://orcascan.com/mobile) and [present data from your system](https://orcascan.com/docs/api/lookup-url) using [Express](https://expressjs.com/) and [Node.js](https://nodejs.org/en/about/).
+This open source project is a an example of [how to scan barcodes using a smartphone](https://orcascan.com/mobile) and [present data from your system](https://orcascan.com/docs/api/lookup-url) using [Express](https://expressjs.com/) and [Node.js](https://nodejs.org/en/about/).
 
 **How it works:**
 
