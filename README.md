@@ -71,8 +71,8 @@ app.get('/', function (req, res) {
         Vin: barcode,
         Make: 'SUBARU',
         Model: 'Legacy',
-        ManufacturerName: 'FUJI HEAVY INDUSTRIES U.S.A',
-        VehicleType: 'PASSENGER CAR',
+        'Manufacturer Name': 'FUJI HEAVY INDUSTRIES U.S.A',
+        'Vehicle Type': 'PASSENGER CAR',
         Year: 1992
     };
 
