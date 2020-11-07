@@ -66,7 +66,7 @@ app.get('/', function (req, res) {
 
     // TODO: query a database or API to retrieve some data based on barcode value
 
-    // create an object with data to return (property names must match Orca column names)
+    // create an object to return (property names must match column names)
     var dataToReturn = {
         Vin: barcode,
         Make: 'SUBARU',
