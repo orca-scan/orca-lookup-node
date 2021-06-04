@@ -1,6 +1,6 @@
 {
   "name": "orca-lookup-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Example of how to respond to an Orca Scan Lookup request using Node.js",
   "main": "index.js",
   "scripts": {
